@@ -4,8 +4,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+/* vietnamese */
+
+
 body {
-    background-color: #f8f8f8;
+    background-color: white;
 }
 
 #wrapper {
@@ -15,7 +18,24 @@ body {
 #page-wrapper {
     padding: 20px;
     min-height: 568px;
-    background-color: #fff;
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Lobster',
+}
+
+p {
+    font-family: 'Lobster';
+}
+
+span {
+    font-family: 'Lobster',
+}
+
+.container-fluid {
+    color: #4a148c;
+    background-color: white;
 }
 
 @media(min-width:768px) {
@@ -105,7 +125,7 @@ body {
 }
 
 .sidebar ul li a.active {
-    background-color: #eee;
+    background-color: black;
 }
 
 .sidebar .arrow {

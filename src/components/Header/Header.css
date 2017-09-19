@@ -11,15 +11,24 @@
 
 
 :root {
-  --brand-color: #61dafb;
+  --brand-color: black;
+}
+
+#wrapper {
+  color: #eff;
+
+
+
 }
 
 .root {
-  background: #373277;
-  color: #fff;
+  background: black;
+  color: black;
 }
 
-.container {
+.container-fluid {
+  color: black;
+  background-color: black;
   margin: 0 auto;
   padding: 20px 0;
   max-width: var(--max-content-width);
